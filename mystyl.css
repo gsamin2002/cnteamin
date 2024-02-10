@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.formf {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #333;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.b_x {
+    background-color: #00ff2e;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.bimp2 {
+    background-color: #00ff2e;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.bimp2:hover {
+    background-color: #59ff77;
+    transition: 0.3s;
+   
+}
+.b_x:hover {
+    background-color: #59ff77;
+    transition: 0.3s;
+   
+}
+/* Add your own custom styles as needed */

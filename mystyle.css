@@ -1,0 +1,375 @@
+.im2:hover{
+    border-radius: 30px;
+    width: 400px;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.245));
+    transition: 0.2s;
+    opacity: 70%;
+}
+.im2:not(:hover){
+    transition: 0.2s;
+}
+.im3{
+  border-radius: 20px;
+}
+.im3:hover{
+  border-radius: 0px;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.245));
+  transition: 0.2s;
+  width: 170px;
+  border: 4px solid rgb(0, 0, 0);
+}
+.im3:not(:hover){
+  transition: 0.2s;
+}
+#showMe {
+    animation: cssAnimation 0s 2s forwards;
+    opacity: 0; 
+    animation-duration: 0.5s;
+  }
+  @keyframes cssAnimation {
+    to   { opacity: 1; }
+  }
+.a{
+    background-image: url('p1.png');
+    background-size: cover;
+    background-size: contain;   
+}
+body{
+    background-image: url('bg1.jpg');
+    background-size: cover;
+}
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #1fbd00;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border: 2px solid black;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #126816;
+}
+button:hover{
+    transition: 0.4s;
+}
+button:not(:hover){
+    transition: 0.4s;
+}
+.login-page1 {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .form1 {
+    position: relative;
+    z-index: 1;
+    background: #ffbb00;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border: 2px solid black;
+  }
+  .form1 input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form1 button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #df9d19;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .form1 button:hover,.form1 button:active,.form1 button:focus {
+    background: #925800;
+  }
+  .login-page2 {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .form2 {
+    position: relative;
+    z-index: 1;
+    background: #00a6ff;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border: 2px solid black;
+  }
+  .form2 input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form2 button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #0164b5;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .form2 button:hover,.form2 button:active,.form2 button:focus {
+    background: #002c92;
+  }
+  .container{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+  }
+  .container span{
+    display: block;
+  }
+  .text1{
+    color: rgb(0, 0, 0);
+    font-family: "Warsaw Gothic";
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    animation: text 2s 1;
+  }
+  .text2{
+    font-size: 20px;
+    font-family: "Warsaw Gothic";
+    color: #d80000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  @keyframes text {
+    0%{
+      color: black;
+      margin-bottom: -40px;
+    }
+    30%{
+      letter-spacing: 6px;
+      margin-bottom: -40px;
+    }
+    85%{
+      margin-bottom:-40px;
+    }
+  }
+  .erreur{
+    color: #d80000;
+    font-family: 'Calibri';
+  }
+  .bien_ms1{
+    color: rgb(0, 0, 6);
+    font-size: 13px;
+    font-family: 'Bahnschrift';
+  }
+  .bien_ms2{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Bahnschrift';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background-color: black;
+  }
+  .decon{
+    color: rgb(0, 0, 0);
+    font-family: 'Bahnschrift' ;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .decon:hover{
+    color: rgb(64, 215, 0);
+    transition-duration: 0.3s;
+  }
+  .tab{
+  background-color: #ffffff7b;
+}
+h1{
+  text-transform: uppercase;
+  font-family: 'Warsaw Gothic';
+  font-size: 50px;
+}
+iframe{
+  border: none;
+}
+.b11{
+  background-image: none;
+}
+
+.formf {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 700px;
+  margin: 0 auto 100px;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+.formf input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: hsl(0, 0%, 100%);
+  width: 100%;
+  border: 1px solid #1e00f9;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  text-align: center;
+}
+.formf button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #1e00f9;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.formf button:hover,.formf button:active,.formf button:focus {
+  background: #13006f;
+}
+button:hover{
+    transition: 0.4s;
+}
+button:not(:hover){
+    transition: 0.4s;
+}
+.bimp{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #1e00f9;
+  width: 500px;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+@media print {
+  body , body .bimp {
+    visibility: hidden;
+  }
+ .print-container, .print-container *{
+  visibility: visible;
+ }
+}
+.ficha input{
+  font-size: 20px;
+  font-family: 'Calibri';
+  font-weight: bolder;
+  padding: 10px;
+  background-color: none;
+}
+.ficha {
+  font-size: 15px;
+  font-family: 'Calibri';
+  color: #303030;
+    border-collapse: collapse;
+    border-right: solid 1px #FFF;
+    border-left: solid 1px #FFF;
+}
+
+h3{
+  color: #002c92;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Calibri';
+  font-size: 30px;
+  font-weight: bold;
+}
+input[type="text"]:disabled {
+  background: #ffffff;
+  color: black;
+  border: none;
+}
+.xx{
+  color: rgb(66, 123, 255);
+ font-size: 20px;
+  font-family: 'Calibri';
+}
+.xxx{
+  color: rgb(226, 6, 6);
+ font-size: 15px;
+  font-family: 'Calibri';
+}
+.head_ficha{
+  border: 3px solid;
+  border-color: black;
+  border-collapse: collapse;
+
+}
